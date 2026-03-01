@@ -9,27 +9,36 @@ hsp = move * walksp;
 vsp += grav;
 
 //bounds
-if (x + hsp >= 997) {
-	while (x + sign(hsp) >= 997) {
-		x += sign(hsp)
-	}
-	hsp = 0;
+//if (x + hsp >= 990) {
+//	while (x + sign(hsp) >= 990) {
+//		x += sign(hsp)
+//	}
+//	x = 997
 	
-} else if (x + hsp <= 3) {
+//} else if (x + hsp <= 3) {
+//
+//	while (x + sign(hsp) <= 3) {
+//		x += sign(hsp)
+//	}
+//	x = 3;
 
-	while (x + sign(hsp) <= 3) {
-		x += sign(hsp)
-	}
-	hsp = 0;
-
-} else if (y + vsp <= 3) {
-
-	while (y + sign(vsp) <= 3) {
-		y += sign(vsp)
-	}
-	vsp = grav;
+//} else if (y + vsp <= 3) {
+//
+//	while (y + sign(vsp) <= 3) {
+//		y += sign(vsp)
+//	}
+//	y = 3;
+	//vsp = grav;
+//}
+if(x>= 990){
+	 x=990;
 }
-
+if(place_meeting(x, y, oPortal1)){
+			room_goto(rm_level_2);
+}
+if(place_meeting(x, y, oPortal2)){
+	room_goto(rm_level_3);
+}
 
 // lava
 if (place_meeting(x, y+vsp, oLava)) {
@@ -80,5 +89,3 @@ y += vsp;
 //if (hsp != 0) {
 //	image_xscale =  0.125 * sign(hsp);
 //}
-
-
