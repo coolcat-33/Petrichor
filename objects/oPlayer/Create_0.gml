@@ -6,6 +6,7 @@ walksp =5;
 
 
 
+
 flash = 0
 // damage
 lava_damage = false;
@@ -20,3 +21,4 @@ hp = 50;
 
 gold = 0;
 damage = 0;
+

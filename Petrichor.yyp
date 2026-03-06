@@ -120,6 +120,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_intro_photo","path":"rooms/rm_intro_photo/rm_intro_photo.yy",},},
     {"roomId":{"name":"rm_intro_video","path":"rooms/rm_intro_video/rm_intro_video.yy",},},
     {"roomId":{"name":"Platform1","path":"rooms/Platform1/Platform1.yy",},},
@@ -134,7 +135,6 @@
     {"roomId":{"name":"Platform3","path":"rooms/Platform3/Platform3.yy",},},
     {"roomId":{"name":"Platform4","path":"rooms/Platform4/Platform4.yy",},},
     {"roomId":{"name":"Platform5","path":"rooms/Platform5/Platform5.yy",},},
-    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

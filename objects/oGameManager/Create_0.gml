@@ -1,2 +1,2 @@
-global.player = oPlayer;
+global.player = undefined;
 global.hp = 50;

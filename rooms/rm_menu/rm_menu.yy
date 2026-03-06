@@ -6,9 +6,9 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_4F7722E6","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_7259C8DC","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_110C400F","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_4F7722E6","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -42,7 +42,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":500,"hspeed":-1,"hview":500,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1000,"wview":1000,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":500,"hspeed":-1,"hview":500,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1000,"wview":1000,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

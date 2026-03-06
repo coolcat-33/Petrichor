@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"sMenu",
   "bboxMode":0,
-  "bbox_bottom":558,
+  "bbox_bottom":499,
   "bbox_left":0,
   "bbox_right":999,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":559,
+  "height":500,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"789da01b-4f53-42a7-a24f-26190536c4f2","blendMode":0,"displayName":"default","isLocked":false,"name":"789da01b-4f53-42a7-a24f-26190536c4f2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
