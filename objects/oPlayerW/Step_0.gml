@@ -34,16 +34,19 @@ if(x>= 990){
 	 x=990;
 }
 if(place_meeting(x, y, oPortal1)){
+	
 	// level 2
-			room_goto(Platform5);
+	global.room++;
+	room_goto(choose(Platform5, Platform6, Platform7, Platform8));
 }
 
 if(place_meeting(x, y, oPortal2)){
-	room_goto(rm_level_3);
+	global.room++;
+	room_goto(choose(Platform9, Platform10));
 }
 
 if(place_meeting(x, y, oPortal3)){
-	room_goto(rm_level_4);
+	room_goto(Platform11);
 }
 
 //  ground lava

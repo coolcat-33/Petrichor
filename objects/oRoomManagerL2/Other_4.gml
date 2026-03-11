@@ -1,4 +1,4 @@
-if (global.room == 2) {
+if (global.room >= 2) {
 	var _player_instance = instance_create_layer(50, 48, "Characters", global.player);
 
 	function get_all_instances_on_layer(layer_name) {

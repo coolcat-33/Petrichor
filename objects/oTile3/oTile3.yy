@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oTrap",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oTile3",
+  "eventList":[],
   "managed":true,
-  "name":"oTrap",
+  "name":"oTile3",
   "overriddenProperties":[],
   "parent":{
     "name":"Tiles",
@@ -16,7 +14,7 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":0,
+  "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"trap",
-    "path":"sprites/trap/trap.yy",
+    "name":"tile3",
+    "path":"sprites/tile3/tile3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
