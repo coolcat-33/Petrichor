@@ -33,10 +33,13 @@ if(x>= 990){
 	 x=990;
 }
 if(place_meeting(x, y, oPortal1)){
-			room_goto(rm_level_2);
+	// level 2
+			global.room++;
+			room_goto(Platform5);
 }
 if(place_meeting(x, y, oPortal2)){
-	room_goto(rm_level_3);
+	global.room++;
+	room_goto(choose(Platform1, Platform2, Platform3, Platform4));
 }
 
 // lava
@@ -51,7 +54,11 @@ if (place_meeting(x, y+vsp, oLava)) {
 if (place_meeting(x, y+3, oPlatform) && key_jump) {
 	vsp = -10;
 }
-
+//Damage
+if (lava_damage) {
+	global.hp = max(0, global.hp - 5);
+	lava_damage = false;
+}
 
 // horizontal collision
 if (place_meeting(x+hsp, y, oPlatform)) {

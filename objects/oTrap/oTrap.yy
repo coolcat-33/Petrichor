@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oTrap",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oTrap",
   "overriddenProperties":[],
@@ -14,7 +16,7 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":1,
+  "physicsGroup":0,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
@@ -32,5 +34,5 @@
     "path":"sprites/trap/trap.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
