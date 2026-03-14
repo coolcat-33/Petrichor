@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sFairy",
-    "path":"sprites/sFairy/sFairy.yy",
+    "name":"fairy",
+    "path":"sprites/fairy/fairy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,9 @@
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+if (!global.paused) {
+	key_left = keyboard_check(vk_left);
+	key_right = keyboard_check(vk_right);
+	key_jump = keyboard_check_pressed(vk_space);
+
+
 
 var move = key_right - key_left;
 
@@ -81,20 +84,4 @@ if (place_meeting(x, y+vsp, oPlatform)) {
 
 }
 y += vsp;
-
-//Animation
-
-//if (!place_meeting(x, y+1, oPlatform)) {
-//	image_speed = 0;
-//} else {
-//	image_speed = 1;
-//	if (hsp == 0) {
-///		sprite_index = sPlayer;
-	//} else {
-//		sprite_index = sPlayerW;
-//	}
-//}
-
-//if (hsp != 0) {
-//	image_xscale =  0.125 * sign(hsp);
-//}
+}
