@@ -1,6 +1,6 @@
 coins_collected = 0;
 dialogue = 11;
-room_started = false;
+restarted= false;
 
 function get_all_instances_on_layer(layer_name) {
 	    var _layer_id = layer_get_id(layer_name); // Get the layer ID

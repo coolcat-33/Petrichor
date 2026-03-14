@@ -6,6 +6,7 @@ if (time_left == 0) {
 	//oIntruderDetected.isBlinking = true;
 	//oIntruderDetected.alarm[0] = room_speed;
 	//if (oIntruderDetected.isBlinking == false) {
+	oRoomManagerL1.restarted = true;
 	room_restart();
 	//}
 	

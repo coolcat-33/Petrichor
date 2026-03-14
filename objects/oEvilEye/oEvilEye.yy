@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oRoomManagerL4",
+  "%Name":"oEvilEye",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRoomManagerL4",
+  "name":"oEvilEye",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level 4",
-    "path":"folders/Objects/Level 4.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Characters/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"evilEye",
+    "path":"sprites/evilEye/evilEye.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

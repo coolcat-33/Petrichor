@@ -1,12 +1,16 @@
 global.player = undefined;
-global.hp = 50;
+global.hp = 100;
 global.name = "";
-global.max_hp = 50
+global.max_hp = 100
 global.timerOver = false;
 global.gold = 0;
 
 global.dialogue = 0;
 global.paused = true;
+global.restarted = false;
+
+wantsRestart = false;
+quit = false;
 
 global.font = font_add("block-sans-serif.ttf", 32, false, false, 0, 255);
 if (global.player == oPlayerW) {

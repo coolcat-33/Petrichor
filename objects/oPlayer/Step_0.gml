@@ -53,7 +53,7 @@ if (place_meeting(x, y+vsp, oLava)) {
 	while (!place_meeting(x, y+sign(vsp), oLava)) {
 		y += sign(vsp);
 	}
-	game_restart()
+	room_goto(rm_restart);
 
 }
 
